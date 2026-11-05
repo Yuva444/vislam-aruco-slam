@@ -1,0 +1,9 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+opencv-contrib-python>=4.7     # cv2.aruco.ArucoDetector API (4.7+)
+streamlit>=1.30                # dashboard
+plotly>=5.18                   # dashboard 3D view
+imageio-ffmpeg>=0.4          # MP4 export of the replay (bundles an ffmpeg binary)
+pytest>=7.0

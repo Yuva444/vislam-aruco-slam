@@ -1,0 +1,101 @@
+{
+  "name": "E3_closed_loop",
+  "simulated": true,
+  "T_BC": [
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "marker_size": 0.18,
+  "vo_kind": "velocity",
+  "start_pose": [
+    [
+      0.6872481753310911,
+      0.7257177440716608,
+      -0.03199533471656847,
+      1.5
+    ],
+    [
+      -0.726422704424969,
+      0.6865812320850435,
+      -0.030269890064181463,
+      1.5
+    ],
+    [
+      0.0,
+      0.044045064287873206,
+      0.9990295452647419,
+      1.5
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "sim_visible": 568,
+  "sim_detected": 511,
+  "blackouts": [],
+  "config": {
+    "path": "rect",
+    "laps": 2,
+    "seed": 0,
+    "speed": 0.8,
+    "ramp": 1.5,
+    "sway_deg": 40.0,
+    "marker_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "marker_size": 0.18,
+    "imu_rate": 200.0,
+    "cam_rate": 20.0,
+    "imu_noise_scale": 1.0,
+    "acc_density": 0.01,
+    "gyr_density": 0.001,
+    "acc_rw": 0.001,
+    "gyr_rw": 0.0001,
+    "acc_bias0": 0.05,
+    "gyr_bias0": 0.005,
+    "max_range": 3.5,
+    "fov_deg": 70.0,
+    "max_incidence_deg": 70.0,
+    "det_noise_scale": 1.0,
+    "p_miss": 0.1,
+    "p_outlier": 0.0,
+    "blackouts": [],
+    "vo_sigma": 0.05,
+    "vo_scale_sigma": 0.05,
+    "name": "E3_closed_loop"
+  },
+  "imu_rate": 200.0,
+  "cam_rate": 20.0
+}
